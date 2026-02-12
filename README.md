@@ -8,7 +8,15 @@
 
 # 
 
-# !\[System Architecture](https://via.placeholder.com/800x400?text=Diagram:+Audio+->+Python+FFT+->+JSON+->+Unity+Visualization)
+# !\[System Architecture](```mermaid
+graph TD
+    A[Real-World Audio] -->|Bluetooth| B(Python Script)
+    B -->|FFT Analysis| C{Data Processing}
+    C -->|Calculates RPM| D[JSON Data Bridge]
+    D -.->|Atomic Write| E[Unity 3D Engine]
+    E -->|Updates| F[3D Rotation]
+    E -->|Updates| G[UI Dashboard]
+    E -->|Updates| H[Physics/Heat])
 
 # 
 
