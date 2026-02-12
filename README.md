@@ -8,7 +8,7 @@
 
 # 
 
-# !\[System Architecture](```mermaid
+# !\[System Architecture]```mermaid
 graph TD
     A[Real-World Audio] -->|Bluetooth| B(Python Script)
     B -->|FFT Analysis| C{Data Processing}
@@ -16,7 +16,7 @@ graph TD
     D -.->|Atomic Write| E[Unity 3D Engine]
     E -->|Updates| F[3D Rotation]
     E -->|Updates| G[UI Dashboard]
-    E -->|Updates| H[Physics/Heat])
+    E -->|Updates| H[Physics/Heat]
 
 # 
 
