@@ -38,7 +38,7 @@
 
 # \## 🛠️ How to Run
 
-# 1\.  \*\*Python:\*\* Run `audio\_engine.py` to start listening to system audio.
+# 1\.  \*\*Python:\*\* Run `AuduoRpmScript.pyproj` to start listening to system audio.
 
 # 2\.  \*\*Unity:\*\* Open the project and press Play. The engine will automatically detect the data stream.
 
