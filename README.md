@@ -8,7 +8,7 @@
 
 # 
 
-# !\[System Architecture]```mermaid
+```mermaid
 graph TD
     A[Real-World Audio] -->|Bluetooth| B(Python Script)
     B -->|FFT Analysis| C{Data Processing}
